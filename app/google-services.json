@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1005566367513",
+    "project_id": "aplikasi-paket-bus-wisata",
+    "storage_bucket": "aplikasi-paket-bus-wisata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005566367513:android:c4f8053c053f1cf8321788",
+        "android_client_info": {
+          "package_name": "com.example.tugasakhir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS88V4nPeoxDMe2jJXFpg-wJV8IvVxoGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403"
+        />
+
+    <ImageView
+        android:id="@+id/gambarbis"
+        android:layout_width="138dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/bus"
+        />
+
+    <TextView
+        android:id="@+id/TemukanDestinasiLokasiAnda"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/txtTemukan"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout1"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edt_email"
+        android:textColorHint="#d8dcd6"
+        android:hint="@string/masukkan_tempat_destinasi"
+        app:startIconDrawable="@drawable/bus_svgrepo_com_1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtlayout1"
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout2"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edt_email"
+        android:textColorHint="#d8dcd6"
+        android:hint="@string/PilihTanggalKepergian"
+        app:startIconDrawable="@drawable/calender_svgrepo_com">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtlayout2"
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            android:hint=""
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout3"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="305dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edt_email"
+        android:textColorHint="#d8dcd6"
+        android:hint="@string/verif"
+        app:startIconDrawable="@drawable/smartphone_svgrepo_com">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtlayout3"
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:background="@android:color/transparent">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:layout_width="360dp"
+        android:id="@+id/spinner1"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="385dp"
+        android:background="@drawable/edt_email"
+        tools:listitem="@layout/pilihlayanan"
+        />
+    <Button
+        android:id="@+id/btnverif"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="460dp"
+        android:text="@string/Verifikasi"
+        android:background="@drawable/rounder"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/btnpayf"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="460dp"
+        android:text="@string/pay"
+        android:background="@drawable/rounder"
+        android:textColor="@color/white"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:shape="rectangle"
+    android:id="@+id/main"
+    >
+    <ImageView
+        android:id="@+id/gambarbis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/SelamatDatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Selamat Datang"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        />
+
+    <TextView
+        android:id="@+id/Healing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Healing dan Temukan Kebahagiaan Mu!!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="395dp"
+        android:textSize="17dp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rounder"
+        android:text="@string/btnLogin"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:paddingHorizontal="40dp"
+        android:textColorHint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rounder2"
+        android:text="@string/btnRegister"
+        android:textSize="16dp"
+        android:textColor="@color/purple_500"
+        android:paddingHorizontal="18dp"
+        android:textColorHint="@color/purple_500"
+        />
+
+</RelativeLayout>

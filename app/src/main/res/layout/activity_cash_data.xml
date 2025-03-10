@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".cash_data"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"
+        android:text="Add Data"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nama" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edt_email"
+        android:textColorHint="#d8dcd6"
+        android:hint="Masukkan Nama">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nama"
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="-50dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvLayanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="180dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="Layanan" />
+
+    <Spinner
+        android:layout_width="350dp"
+        android:id="@+id/spinner1"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="213dp"
+        android:background="@drawable/edt_email"
+        tools:listitem="@layout/pilihlayanan"/>
+
+    <TextView
+        android:id="@+id/harga_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="290dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="Harga Total" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/total"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="324dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edt_email"
+        android:textColorHint="#d8dcd6"
+        android:hint="Total">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/total_semua"
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnverif"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="420dp"
+        android:text="Input"
+        android:background="@drawable/rounder"
+        android:textColor="@color/white"/>
+</RelativeLayout>

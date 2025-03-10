@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".form_Pembayaran"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="45dp"
+        android:text="Add Card"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/nomorK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="85dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nomor Kartu" />
+    <!-- Cardholder's Name -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nama"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="215dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edt_email"
+        android:textColorHint="#d8dcd6"
+        android:hint="@string/namaPemegangKartu">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCardholderName"
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Card Number -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutCardNumber"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edt_email"
+        android:textColorHint="#d8dcd6"
+        android:hint="@string/nomorKartu">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCardNumber"
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/nm_pmg_kartu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="185dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nama Pemegang Kartu" />
+
+    <TextView
+        android:id="@+id/nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="285dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="Masa Berlaku" />
+
+    <TextView
+        android:id="@+id/CV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="285dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="200dp"
+        android:text="Password" />
+    <!-- Expiration Date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="315dp"
+        >
+
+
+        <!-- Expiration Date -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutExpirationDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:hint="@string/masaBerlaku"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edt_email"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtExpirationDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- CVV Code -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutCvvCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_email"
+            android:hint="@string/cvv">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtCvvCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <Spinner
+        android:layout_width="370dp"
+        android:id="@+id/spinner1"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"
+        android:background="@drawable/edt_email"
+        tools:listitem="@layout/pilihlayanan"/>
+    <TextView
+        android:id="@+id/ht"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="480dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:text="Harga Total" />
+    <!-- Cardholder's Name -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/total"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="515dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edt_email"
+        android:textColorHint="#d8dcd6"
+        android:hint="@string/total">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/total_semua"
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            tools:ignore="TouchTargetSizeCheck"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnverif"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="590dp"
+        android:text="@string/payment"
+        android:background="@drawable/rounder"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

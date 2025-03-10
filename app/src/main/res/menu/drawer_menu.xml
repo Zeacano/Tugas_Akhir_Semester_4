@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navProfil"
+        android:icon="@drawable/profil"
+        android:title="Profil Anda" />
+
+    <item
+        android:id="@+id/navTiket"
+        android:icon="@drawable/tiket"
+        android:title="Tiket Anda"
+        />
+
+</menu>

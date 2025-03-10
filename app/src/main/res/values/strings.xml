@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="app_menu">Home</string>
+    <string name="app_menu1">Destination</string>
+    <string name="app_menu2">More</string>
+    <string name="to_page_2">to page 2</string>
+    <string name="txtTemukan">Temukan Destinasi Lokasi Anda!!</string>
+    <string name="halaman_2">halaman 2</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Registrasi</string>
+    <string name="btnSubmit">Buat akun</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_home"></string>
+    <string name="title_dashboard"></string>
+    <string name="title_notifications">More</string>
+    <string name="text_home"></string>
+    <string name="masukkan_tempat_destinasi">Masukkan Tempat Destinasi</string>
+    <string name="todo">TODO</string>
+    <string name="PilihTanggalKepergian">Pilih Tanggal Kepergian</string>
+    <string name="verif">Verifikasi Nomor Telepon</string>
+    <string name="pilihlayanan">Pilih Layanan</string>
+    <string name="Verifikasi">Verifikasi</string>
+    <string name="pay">Payment</string>
+    <string name="Home">Home</string>
+    <string name="Destinasi">Destinasi</string>
+    <string name="more">More</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu">Menu</string>
+    <string name="namaPemegangKartu">Masukkan Nama Pemegang Kartu</string>
+    <string name="nomorKartu">Masuk Nomor Kartu</string>
+    <string name="masaBerlaku">MM / YYYY</string>
+    <string name="total">total</string>
+    <string name="cvv">---</string>
+    <string name="payment">Bayar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="island_description">Pulau Samalona adalah pulau kecil di dekat kota Makassar, Sulawesi Selatan, Indonesia. Pulau ini terkenal dengan pantainyayang berpasir putih dan air laut yang jernih. Luasnya sekitar 2,34 hektar dan bisa menjadi tujuan wisata bahari populer. Terumbu karang di sekitarnya merupakan rumah bagi berbagai jenis ikan tropis, membuatnya ideal untuk snorkeling dan menyelam. Akses ke Pulau Samalona mudah di jangkau dengan perahu motor dari Pantai Losari atau Dermaga Popsa di Makassar. Perjalanan memakan waktu sekitar 30-40 menit. Dimana pulau ini, terdapat beberapa cottage sederhana dan warung-warung kecil yang menjual makanan, minuman, serta perlengkapan destinasi snorkeling disana. Aktivitas utama di Pulau Samalona adalah tempat snorkeling dan menyelam. Bagi yang tidak memiliki peralatan sendiri, tersedia sebuah tempat di pulau untuk penyewaan alatnya di pulau ini. Pemandu lokal siap membantu wisatawan menikmati pengalaman menyelam yang aman. Selain itu, wisatawan dapat bersantai dimana pun di berbagai spot pantai, berenang, atau Berjalan mengelilingi pulau.</string>
+    <string name="island_description1">Danau Laut Tawar Merupakan Danau yang memiliki luas sekitar 5.472 hektar dan panjang sekitar 17 km dengan kedalaman mencapai 50 meter. Dikelilingi oleh pegunungan dan hutan tropis, Danau Laut Tawar menawarkan pemandangan alam yang indah dan menenangkan. Airnya yang jernih dan segar menjadi sumber air bersih bagi masyarakat sekitar dan habitat bagi berbagai jenis ikan air tawar. Danau ini juga menjadi pusat kegiatan wisata di dataran tinggi Gayo, dengan berbagai aktivitas seperti memancing, berperahu, dan berenang. Kota Takengon, yang terletak di tepi danau, adalah pusat administrasi dan budaya Gayo, menawarkan fasilitas wisata seperti penginapan, restoran, dan pasar tradisional. Wisatawan juga dapat menikmati kopi Gayo yang terkenal, yang ditanam di perkebunan sekitar danau.</string>
+    <string name="island_description2">Danau Bungi terletak di Kabupaten Konawe Selatan, Sulawesi Tenggara, Indonesia. Danau ini dikenal dengan airnya yang jernih dan pemandangan alam yang asri, dikelilingi oleh hutan hijau yang rimbun. Danau Bungi memiliki ekosistem yang kaya, menjadi habitat bagi berbagai jenis ikan dan burung air. Wisatawan yang mengunjungi Danau Bungi dapat menikmati kegiatan seperti memancing, berperahu, atau sekadar bersantai menikmati keindahan alam. Airnya yang tenang juga membuatnya ideal untuk berenang dan kegiatan rekreasi air lainnya. Di sekitar danau, terdapat beberapa fasilitas pendukung pariwisata seperti area piknik dan tempat istirahat. Masyarakat lokal juga sering mengadakan acara budaya di sekitar danau, menambah daya tarik bagi wisatawan.  Danau Bungi merupakan salah satu destinasi wisata yang relatif belum banyak terjamah, menawarkan suasana yang tenang dan jauh dari keramaian. Keasrian alamnya menjadikannya tempat yang sempurna untuk relaksasi dan pelarian dari rutinitas sehari-hari. Selain sebagai destinasi wisata, Danau Bungi juga penting bagi masyarakat sekitar sebagai sumber air bersih dan mata pencaharian melalui perikanan. Usaha konservasi dan pelestarian lingkungan di sekitar danau terus dilakukan untuk menjaga keindahan dan ekosistemnya.</string>
+    <string name="island_description3">Tanjung Bira adalah destinasi wisata pantai yang terletak di Kabupaten Bulukumba, Sulawesi Selatan, Indonesia. Tanjung Bira terkenal dengan pasir putihnya yang lembut, air laut yang jernih, dan pemandangan laut yang memukau. Pantai ini menawarkan pemandangan matahari terbit dan terbenam yang spektakuler, menjadikannya tempat favorit bagi para fotografer dan wisatawan. Di Tanjung Bira, wisatawan dapat menikmati berbagai aktivitas seperti berenang, snorkeling, dan menyelam. Terumbu karang di sekitar pantai ini merupakan rumah bagi berbagai jenis ikan tropis dan biota laut lainnya, membuatnya ideal untuk eksplorasi bawah laut. Selain itu, terdapat juga beberapa spot untuk berselancar bagi para penggemar olahraga air. Akses ke Tanjung Bira cukup mudah, dengan perjalanan darat sekitar 5-6 jam dari Makassar. Di sekitar pantai, terdapat berbagai fasilitas penunjang wisata seperti hotel, penginapan, restoran, dan warung makan yang menyajikan hidangan laut segar.</string>
+    <string name="masukkan_nama_destinasi">Masukkan Nama Lokasi Destinasi</string>
+    <string name="masukkan_alamat_destinasi">Masukkan Alamat Destinasi</string>
+    <string name="masukkan_gambar_destinasi">Masukkan Gambar Destinasi</string>
+    <string name="select_image">Kirim</string>
+    <string name="submit_suggestion">Kirim Saran</string>
+    <string name="thank_you">Terima Kasih</string>
+    <string name="thank_you_message">"Kami sangat mengapresiasi saran destinasi yang diberikan. Kami akan mempertimbangkannya untuk paket aplikasi kami di masa mendatang."</string>
+    <string name="privacy_policy_content">This demo dataset for a cab booking application
+comprises several key attributes essential for
+managing bookings and user experiences.
+    </string>
+    <string name="privacy_policy_content2">
+Each record includes a unique Booking ID, User ID,
+and Driver ID to identify transactions, participants,
+and service providers respectively. The dataset also
+details the Car Type (e.g., SUV, Sedan, Compact),
+specific Pickup and Drop-off Locations with address
+data, and both scheduled Pickup and estimated
+Drop-off Times.
+</string>
+    <string name="privacy_policy_content3">It records the Distance of each trip in kilometers and
+the Price estimated for the service. Each entry is
+tagged with a Status indicating whether the booking
+is pending, confirmed, completed, or cancelled.
+Such a structured dataset is crucial for operational
+oversight and helps in optimizing the allocation of
+resources and analyzing user behavior in a cab
+booking system.</string>
+    <string name="FQ">
+    This demo dataset for a cab booking application
+comprises several key attributes essential for
+managing bookings and user experiences.
+    </string>
+    <string name="FQ1">
+    Each record includes a unique Booking ID, User ID,
+and Driver ID to identify transactions, participants,
+and service providers respectively. The dataset also
+details the Car Type (e.g., SUV, Sedan, Compact),
+specific Pickup and Drop-off Locations with address
+data, and both scheduled Pickup and estimated
+Drop-off Times.
+    </string>
+    <string name="FQ2">
+Each record includes a unique Booking ID, User ID,
+and Driver ID to identify transactions, participants,
+and service providers respectively. The dataset also
+details the Car Type (e.g., SUV, Sedan, Compact),
+specific Pickup and Drop-off Locations with address
+data, and both scheduled Pickup and estimated
+Drop-off Times.
+    </string>
+</resources>
+
+
